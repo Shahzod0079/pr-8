@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="pr_8.Elements.UserControl1"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Border Margin="10" 
+            Padding="15" 
+            Background="#FF333333" 
+            CornerRadius="10">
+        <StackPanel>
+            <TextBlock x:Name="tbName" Text="Воин" FontWeight="Bold" Foreground="White"/>
+            <TextBlock x:Name="tbHealth" Text="Здоровье: 100" Foreground="LightGreen"/>
+            <TextBlock x:Name="tbArmor" Text="Тип доспехов: Нет" Foreground="LightBlue"/>
+        </StackPanel>
+    </Border>
+</UserControl>
